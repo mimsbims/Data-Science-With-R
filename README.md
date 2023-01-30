@@ -21,6 +21,7 @@ The Hello World Exercise: [https://docs.github.com/en/get-started/quickstart/hel
 2. In the Example Comparisons Box, select the branch with the edits you want to review and merge. Review the changes. Click **Create pull request**. Collaborators can now review edits and make suggestions.
 3. **Merge pull request**.
 4. **Delete branch**.
+
 ---
 
 *italics*
