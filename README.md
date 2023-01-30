@@ -1,10 +1,18 @@
 # Data-Science-With-R
 
-## Heading 2 test
+## Markdown Cheatsheet
 
-### Heading 3 test
+A Markdown Cheatsheet can be found at [https://www.markdownguide.org/cheat-sheet/](https://www.markdownguide.org/cheat-sheet/)
 
-#### Heading 4
+## Get Started With GitHub
+
+The Hello World Exercise: [https://docs.github.com/en/get-started/quickstart/hello-world](https://docs.github.com/en/get-started/quickstart/hello-world)
+
+### Steps
+
+1. Create a **repository** with a README file
+2. Create a **branch** off your main branch. A branch is a copy of main at the time the branch is made. Edits can be done to the branch and when the edits are complete, the branch can be merged into main. Name the new branch readme_edits
+3. **Make and commit changes** to the README.md file in the readme_edits branch. Use various Markdown elements (see cheatsheet link above).
 
 ---
 
