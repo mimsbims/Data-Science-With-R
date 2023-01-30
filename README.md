@@ -2,7 +2,7 @@
 
 ## Markdown Cheatsheet
 
-A Markdown Cheatsheet can be found at [markdownguide.org/cheat-sheet/](markdownguide.org/cheat-sheet/)
+A Markdown Cheatsheet can be found at [www.markdownguide.org/cheat-sheet/](www.markdownguide.org/cheat-sheet/)
 
 ## Get Started With GitHub
 
