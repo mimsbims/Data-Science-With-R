@@ -39,7 +39,9 @@ Type in Terminal to get latest version: git clone https://github.com/git/git
 If you'd like to keep your personal email address private, you can use a noreply email address from GitHub as your commit email address.
 6374386+mimsbims@users.noreply.github.com
 
----
+## Tutorial: creating R Markdown documents with RStudio and publishing them via GitHub using GitHub Pages
+
+[https://resources.github.com/github-and-rstudio/](https://resources.github.com/github-and-rstudio/)
 
 *italics*
 
