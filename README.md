@@ -45,19 +45,10 @@ If you'd like to keep your personal email address private, you can use a noreply
 
 ### Clone the repository with RStudio
 
-Click on Code (green button with down arrow). Copy the https URL for your repository.
+In the Code tab of your GitHub repository, click on Code (green button with down arrow). Copy the https URL for your repository.
+
+For more details on cloning a repository:
+[https://docs.github.com/en/repositories/creating-and-managing-repositories/cloning-a-repository#about-cloning-a-repository](https://docs.github.com/en/repositories/creating-and-managing-repositories/cloning-a-repository#about-cloning-a-repository)
+
 In RStudio: New Project -> Version Control -> Git
 
-*italics*
-
-**bold**
-
-> block of text
-> more text
-
-## Heading 2 again
-
-- this
-- that
-- the other
-- and another
