@@ -22,6 +22,23 @@ The Hello World Exercise: [https://docs.github.com/en/get-started/quickstart/hel
 3. **Merge pull request**.
 4. **Delete branch**.
 
+## Set up Git
+
+Instructions: [https://docs.github.com/en/get-started/quickstart/set-up-git](https://docs.github.com/en/get-started/quickstart/set-up-git)
+
+1. Install Git
+
+Git comes with XCode
+Type in Terminal to see Git version: git --version
+
+Type in Terminal to get latest version: git clone https://github.com/git/git
+
+2. Set your username in Git: mimsbims
+3. Set your commit email address in Git
+
+If you'd like to keep your personal email address private, you can use a noreply email address from GitHub as your commit email address.
+
+
 ---
 
 *italics*
