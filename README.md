@@ -43,6 +43,11 @@ If you'd like to keep your personal email address private, you can use a noreply
 
 [https://resources.github.com/github-and-rstudio/](https://resources.github.com/github-and-rstudio/)
 
+### Clone the repository with RStudio
+
+Click on Code (green button with down arrow). Copy the https URL for your repository.
+In RStudio: New Project -> Version Control -> Git
+
 *italics*
 
 **bold**
