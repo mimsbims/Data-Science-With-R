@@ -41,7 +41,7 @@ If you'd like to keep your personal email address private, you can use a noreply
 
 ## Tutorial: creating R Markdown documents with RStudio and publishing them via GitHub using GitHub Pages
 
-[https://resources.github.com/github-and-rstudio/](https://resources.github.com/github-and-rstudio/)
+The tutorial is at [https://resources.github.com/github-and-rstudio/](https://resources.github.com/github-and-rstudio/). Some of the instructions did not work for me and I had to do a few extra steps to get them to work. I documented the extra steps below.
 
 ### Clone the repository with RStudio
 
@@ -51,6 +51,38 @@ For more details on cloning a repository:
 [https://docs.github.com/en/repositories/creating-and-managing-repositories/cloning-a-repository#about-cloning-a-repository](https://docs.github.com/en/repositories/creating-and-managing-repositories/cloning-a-repository#about-cloning-a-repository)
 
 In RStudio: New Project -> Version Control -> Git
+
+### Create an R Markdown document in RStudio
+
+No issues with these instructions
+
+### Commit and push the changes to GitHub
+
+**5. Click Commit** - This failed. Needed to use "git add filename" to add new file to repo.
+
+In Terminal:
+
+```console
+cd project_directory
+git add new_file
+```
+After doing that, click Commit worked.
+
+**6. Pull** (to fetch remote changes) - This failed. Fatal: Need to specify how to reconcile divergent branches.
+
+Note: I had edited README.md in GitHub.com and committed the edits after cloning the repository with RStudio.
+
+Fix: Pull button in RStudio has a drop down arrow. I clicked **Pull with rebase** and that succeeded in pulling the changes from the remote repo.
+
+**7. Push** (to push local changes to remote repo) - This failed. Support for pw auth. was removed on Aug 13, 2021. Auth. failed.
+
+Fix: I installed **Git Credential Manager (GCM)**. I used homebrew in the Terminal, but it may have been easier to download the installation package. Homebrew took many minutes to upgrade.
+
+More information about GCM can be found here: [Getting started with Git - Caching credentials](https://docs.github.com/en/get-started/getting-started-with-git/caching-your-github-credentials-in-git)
+
+[Install instructions for GCM](https://github.com/GitCredentialManager/git-credential-manager/blob/release/docs/install.md)
+
+
 
 
 
