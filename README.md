@@ -54,25 +54,26 @@ In RStudio: New Project -> Version Control -> Git
 
 ### Create an R Markdown document in RStudio
 
-No issues with these instructions
+1. File -> New File -> R Markdown (HTML output)
+2. File -> Save (don't knit)
+3. Add new file to staging area. 
 
-### Commit and push the changes to GitHub
+If this step is skipped and one tries to commit the change, there will be an error message: nothing added to commit but untracked files present. There is a Terminal tab in RStudio in the bottom left, next to the Console tab. If it isn't there, click More in the menu for the Git window in RStudio, then click New Terminal.
 
-**5. Click Commit** - This failed. Needed to use "git add filename" to add new file to repo.
-
-In Terminal:
+In Terminal type:
 
 ```console
-cd project_directory
 git add new_file
 ```
-After doing that, click Commit worked.
 
-**6. Pull** (to fetch remote changes) - This failed. Fatal: Need to specify how to reconcile divergent branches.
+4. Click Commit 
+5. Click Pull (to fetch remote changes)
 
-Note: I had edited README.md in GitHub.com and committed the edits after cloning the repository with RStudio.
+If there were no changes to the remote repository since the last time the local and remote repositories were synched, you will get the message: already up to date. 
 
-Fix: Pull button in RStudio has a drop down arrow. I clicked **Pull with rebase** and that succeeded in pulling the changes from the remote repo.
+If there as been a change to the remote repository, you may get an error message: fatal: need to specify how to reconcile divergent branches. Try **Pull with rebase** instead (in dropdown menu for Pull button).
+
+For more information on merging divergent branches see [the Pro Git book](https://git-scm.com/book/en/v2)
 
 **7. Push** (to push local changes to remote repo) - This failed. Support for pw auth. was removed on Aug 13, 2021. Auth. failed.
 
