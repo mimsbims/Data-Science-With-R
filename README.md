@@ -29,15 +29,25 @@ Instructions: [https://docs.github.com/en/get-started/quickstart/set-up-git](htt
 1. Install Git
 
 Git comes with XCode
-Type in Terminal to see Git version: git --version
 
-Type in Terminal to get latest version: git clone https://github.com/git/git
+Type in Terminal to see Git version:
 
-2. Set your username in Git: mimsbims
+```console
+git --version
+```
+
+To get latest Git version: 
+
+```console
+git clone https://github.com/git/git
+```
+
+2. Set your username in Git
 3. Set your commit email address in Git
 
-If you'd like to keep your personal email address private, you can use a noreply email address from GitHub as your commit email address.
-6374386+mimsbims@users.noreply.github.com
+If you'd like to keep your personal email address private, you can use a noreply email address from GitHub as your commit email address: IDnumber+username@users.noreply.github.com
+
+Profile photo menu -> Settings -> Emails (left hand menu) -> Check: Keep my email addresses private
 
 ## Tutorial: creating R Markdown documents with RStudio and publishing them via GitHub using GitHub Pages
 
@@ -77,7 +87,7 @@ For more information on merging divergent branches see [the Pro Git book](https:
 
 **7. Push** (to push local changes to remote repo) - This failed. Support for pw auth. was removed on Aug 13, 2021. Auth. failed.
 
-Fix: I installed **Git Credential Manager (GCM)**. I used homebrew in the Terminal, but it may have been easier to download the installation package. Homebrew took many minutes to upgrade.
+Fix: I installed **Git Credential Manager (GCM)**. I used homebrew in the Terminal, but it may have been faster to download the installation package. Homebrew took many minutes to upgrade.
 
 More information about GCM can be found here: [Getting started with Git - Caching credentials](https://docs.github.com/en/get-started/getting-started-with-git/caching-your-github-credentials-in-git)
 
