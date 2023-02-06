@@ -1,6 +1,11 @@
 ---
 title: "First_R_Markdown_Page"
 author: "mimsbims"
+knit: (function(input_file, encoding) {
+    out_dir <- 'docs';
+    rmarkdown::render(input_file,
+      encoding=encoding,
+      output_file=file.path(dirname(input_file), out_dir, 'index.html'))})
 date: "2023-02-03"
 output: html_document
 ---
