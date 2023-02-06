@@ -93,7 +93,8 @@ More information about GCM can be found here: [Getting started with Git - Cachin
 
 [Install instructions for GCM](https://github.com/GitCredentialManager/git-credential-manager/blob/release/docs/install.md)
 
+### Create local branches with Git
 
-
+The next few steps in the tutorial involve using the GitHub Flow steps to make local changes to a project.
 
 
